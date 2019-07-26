@@ -4,6 +4,7 @@ import { SmurfContext } from '../contexts/SmurfContext';
 import SmurfForm from './SmurfForm';
 import { Smurfs } from './Smurfs';
 import axios from 'axios';
+
 import './App.css';
 
 function App() {

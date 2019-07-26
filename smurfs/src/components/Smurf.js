@@ -1,6 +1,7 @@
 import React from 'react';
 
 export function Smurf(props) {
+  const { name, age, height } = props.smurf;
   return (
     <div
       style={{
@@ -12,9 +13,9 @@ export function Smurf(props) {
         margin: '10px',
       }}
     >
-      <h1> {props.smurf.name}</h1>
-      <p> Age: {props.smurf.age}</p>
-      <p> Height: {props.smurf.height}</p>
+      <h1> {name}</h1>
+      <p> Age: {age}</p>
+      <p> Height: {height}</p>
     </div>
   );
 }

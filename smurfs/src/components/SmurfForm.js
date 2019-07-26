@@ -12,7 +12,7 @@ function SmurfForm({ values, errors, touched, isSubmitting }) {
       </div>
       <div>
         {touched.age && errors.age && <p>{errors.age}</p>}
-        <Field type='text' name='age' placeholder='age' />
+        <Field type='number' name='age' placeholder='age' />
       </div>
       <div>
         {touched.height && errors.height && <p>{errors.height}</p>}
